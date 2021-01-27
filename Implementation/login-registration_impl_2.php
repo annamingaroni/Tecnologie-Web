@@ -40,7 +40,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
             }
             echo "select: ".$select." ";
             if($select=="Amministratore"){
-              $sql_Mail_s = "SELECT * FROM login WHERE Mail='$email_s'";
+              $sql_Mail_s = "SELECT * FROM adminlogin WHERE Mail='$email_s'";
               $res_Mail_s =mysqli_query($connection,$sql_Mail_s);
               if((mysqli_num_rows($res_Mail_s) > 0)){
                      echo "Email già esistente";
@@ -52,7 +52,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                }
             }
             if($select=="Cliente"){
-              $sql_Mail_s = "SELECT * FROM login WHERE Mail='$email_s'";
+              $sql_Mail_s = "SELECT * FROM clientlogin WHERE Mail='$email_s'";
               $res_Mail_s =mysqli_query($connection,$sql_Mail_s);
               if((mysqli_num_rows($res_Mail_s) > 0)){
                      echo "Email già esistente";
