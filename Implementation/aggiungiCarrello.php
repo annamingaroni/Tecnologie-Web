@@ -101,7 +101,7 @@ if(!$connection){
                 $res_Cart =mysqli_query($connection,$sql_Cart);
                   $_SESSION['FULLCART']="";
               }
-              $res_Mail_a =mysqli_query($connection,$sql_Mail_a);
+              //$res_Mail_a =mysqli_query($connection,$sql_Mail_a);
               echo '<script> location.replace("../product.php"); </script>';
       }
   }else{
