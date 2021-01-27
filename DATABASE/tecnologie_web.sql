@@ -148,6 +148,7 @@ CREATE TABLE `clientlogin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- dati per la tabella `clientlogin`.
+-- password per i 3 utenti: cliente.
 
 INSERT INTO `clientlogin` (`ID`, `name`, `Mail`, `Password`, `data`) VALUES
 (1, 'cliente', 'cliente@cliente.cliente', 'd94019fd760a71edf11844bb5c601a4de95aacaf', '2021-01-02 08:44:19'),
@@ -165,6 +166,7 @@ CREATE TABLE `adminlogin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- dati per la tabella `adminlogin`.
+-- password per i 3 utenti: org.
 
 INSERT INTO `adminlogin` (`ID`, `name`, `Mail`, `Password`, `data`) VALUES
 (1, 'organizzatore', 'org@org.org', 'd23b5987504c1b3de484bf2e47c76f75abb794d3', '2021-01-02 08:45:26'),
