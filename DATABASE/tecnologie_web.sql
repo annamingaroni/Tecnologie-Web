@@ -107,7 +107,7 @@ CREATE TABLE `product` (
 
 -- dati per la tabella `product`.
 
-INSERT INTO `product` (`ID`, `image`, `p_name`, `p_descr`, `price`, `admin`, `n_Buy`, `soldout`, `no_admin`) VALUES
+INSERT INTO `product` (`ID`, `image`, `p_name`, `p_descr`, `price`, `admin`, `num_max`, `n_Buy`, `soldout`, `no_admin`) VALUES
 (1, 'img/ar_brillantBar.jpg', 'BRILLANT BAR', 'ADDITIVO AUTOASCIUGANTE E BRILLANTANTE PER MACCHINE LAVABAR', '5.50', 'org@org.org', '200', 20, 0, 0),
 (2, 'img/az_ammorbidente.jpg', 'G-31 AMMORBIDENTE', 'AMMORBIDENTE PROFUMATO PER IL BUCATO A MANO E IN LAVATRICE • Rende il bucato morbido e profumato • Facilita la stiratura • Ravviva i colori', '10.90', 'org2@org2.org2', '200', 10, 0, 0),
 (3, 'img/bl_antischiuma.jpg', 'ANTISCHIUMA', 'ABBATTITORE DI SCHIUMA CONCENTRATO • Abbattitore di schiuma • Prodotto molto attivo • Impiegato con macchina lavasciuga e lavamoquettes ad iniezione/estrazione', '20.90', 'org3@org3.org3', '200', 15, 0, 0),
