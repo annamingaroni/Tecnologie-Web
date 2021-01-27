@@ -239,7 +239,7 @@ ALTER TABLE `notificheadmin`
 
 -- Indici per le tabelle `contact`.
 
-ALTER TABLE `contact`.
+ALTER TABLE `contact`
   ADD PRIMARY KEY (`ID`);
 
 -- Indici per le tabelle `product`.
